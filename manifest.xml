@@ -13,13 +13,13 @@
 <Id>f32aa7f0-1c01-4dd2-bca5-63560e59ade6</Id>
  
   <!--Version. Updates from the store only get triggered if there is a version change. -->
-<Version>1.1.0.0</Version>
+<Version>1.2.0.0</Version>
 <ProviderName>CHC</ProviderName>
 <DefaultLocale>en-US</DefaultLocale>
 <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
 <DisplayName DefaultValue="ECF" />
 <Description DefaultValue="Indexing Documents"/>
-<IconUrl DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon64.png"/>
+<IconUrl DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/Icon64.png?raw=true"/>
  
   <SupportUrl DefaultValue="https://www.hoaresbank.co.uk/" />
 <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
@@ -40,7 +40,7 @@
 <FormSettings>
 <Form xsi:type="ItemRead">
 <DesktopSettings>
-<SourceLocation DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/MessageRead.html"/>
+<SourceLocation DefaultValue="https://raw.githubusercontent.com/hpereira-chc/ECF/refs/heads/main/OutlookSource/MessageRead.html"/>
 <RequestedHeight>250</RequestedHeight>
 </DesktopSettings>
 </Form>
@@ -99,13 +99,13 @@
  
     <Resources>
 <bt:Images>
-<bt:Image id="icon16" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon16.png"/>
-<bt:Image id="icon32" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon32.png"/>
-<bt:Image id="icon80" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon80.png"/>
+<bt:Image id="icon16" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon16.png?raw=true"/>
+<bt:Image id="icon32" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon32.png?raw=true"/>
+<bt:Image id="icon80" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Images/icon80.png?raw=true"/>
 </bt:Images>
 <bt:Urls>
-<bt:Url id="functionFile" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/Functions/FunctionFile.html"/>
-<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://github.com/hpereira-chc/ECF/blob/main/OutlookSource/MessageRead.html"/>
+<bt:Url id="functionFile" DefaultValue="https://raw.githubusercontent.com/hpereira-chc/ECF/refs/heads/main/OutlookSource/Functions/FunctionFile.html"/>
+<bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/hpereira-chc/ECF/refs/heads/main/OutlookSource/MessageRead.html"/>
 </bt:Urls>
 <bt:ShortStrings>
 <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
